@@ -8,7 +8,7 @@ module "sqs" {
 
 ### Input Variables
 
-- `sqs_name` - Name of the SQS Queue.
+- `sqs_queue_name` - Name of the SQS Queue.
 - `sqs_delay_seconds` - The time in seconds that the delivery of all messages in the queue will be delayed. Default is 0
 - `sqs_max_message_size` - The limit of how many bytes a message can contain before Amazon SQS rejects it. Default is 262144.
 - `sqs_message_retention_seconds` - The number of seconds Amazon SQS retains a message. Default is 345600.
